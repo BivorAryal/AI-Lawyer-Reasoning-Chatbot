@@ -12,7 +12,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 # Step 1: upload and load raw PDF
 def load_pdf():
     loader = DirectoryLoader(
-    path = 'books',
+    path = 'book',
     glob='*.pdf',
     loader_cls=PyPDFLoader
     ) 
